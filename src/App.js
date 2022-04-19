@@ -1,24 +1,22 @@
 import React from 'react';
+
+import { Button } from 'react-native';
+import RenderObjectList from './components/List/RenderObjectList';
+
+/* 
 import First from './components/FirstComponent';
-import Style from './components/style';
-
-import { View } from 'react-native';
-
-import MinMax from './components/MinMaxComponent';
-import Random from './components/Random';
-import ReactFragment from './components/ReactFragment';
-import Button from './components/Button';
-import Counter from './components/Counter';
-import Father from './components/indirectCommunication/Father';
+import ConditionalRenderer from './components/ConditionalRenderer';
+// import MinMax from './components/MinMaxComponent';
+// import Random from './components/Random';
+// import ReactFragment from './components/ReactFragment';
+// import Button from './components/Button';
+// import Counter from './components/Counter/CounterV2';
+// import Father from './components/indirectCommunication/Father';
+// import CounterV2 from './components/Counter/CounterV2';
+import If from './components/IfComponent';
+*/
 
 export default () => (
-    <View style={[Style.mainView]}>
-        {/* <First />
-        <MinMax min={1} max={9} /> */}
-        {/* <Random min={1} max={1000}/> */}
-        {/* <ReactFragment/> */}
-        {/* <Button/> */}
-        {/* <Counter initNumber={0} /> */}
-        <Father/>
-    </View>
+    <RenderObjectList />
 );
+

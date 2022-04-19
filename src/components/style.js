@@ -10,13 +10,4 @@ export default StyleSheet.create({
         alignItems: 'center',
         padding: '3%',
     },
-    alignHorizontal: {
-        backgroundColor: 'yellow',
-        flexDirection: 'row',
-        width: '100%',
-        justifyContent: 'space-around',
-        alignItems: 'center',
-    },
-    
-
 });
