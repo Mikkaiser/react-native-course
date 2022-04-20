@@ -1,10 +1,11 @@
 import React from 'react';
 
 import { Button } from 'react-native';
+import Mega from './components/Mega_ClassComponent/Mega';
 
-import TypeYourName from './components/TypeYourName';
 
 /* 
+import TypeYourName from './components/TypeYourName';
 import RenderObjectListV2 from './components/List/RenderObjectListV2';
 import RenderObjectList from './components/List/RenderObjectList';
 import First from './components/FirstComponent';
@@ -20,6 +21,6 @@ import If from './components/IfComponent';
 */
 
 export default () => (
-    <TypeYourName />
+    <Mega />
 );
 
