@@ -2,8 +2,10 @@ import React from 'react';
 
 import { Button } from 'react-native';
 
-import RenderObjectListV2 from './components/List/RenderObjectListV2';
+import TypeYourName from './components/TypeYourName';
+
 /* 
+import RenderObjectListV2 from './components/List/RenderObjectListV2';
 import RenderObjectList from './components/List/RenderObjectList';
 import First from './components/FirstComponent';
 import ConditionalRenderer from './components/ConditionalRenderer';
@@ -18,6 +20,6 @@ import If from './components/IfComponent';
 */
 
 export default () => (
-    <RenderObjectListV2 />
+    <TypeYourName />
 );
 
